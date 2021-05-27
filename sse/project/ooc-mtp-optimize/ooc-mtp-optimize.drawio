@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-05-27T06:31:44.348Z" agent="5.0 (Windows)" version="14.7.2" etag="J_T4swWMH77je8oUGwmE" type="github"><diagram id="qIH6yA4PdBc_4Olohpqy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-27T07:58:38.685Z" agent="5.0 (Windows)" etag="PE7uOBQECF7_0JHRBgkg" version="14.7.2" type="github">
+  <diagram id="qIH6yA4PdBc_4Olohpqy" name="Page-1">
+    <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-2" target="DGgxrFVdcXdNVyg7oCN9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="115" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-3" target="DGgxrFVdcXdNVyg7oCN9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-3" value="&lt;div&gt;监听uniserver的topic是&lt;/div&gt;&lt;div&gt;uni_msg_mtp&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="175" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-5" target="DGgxrFVdcXdNVyg7oCN9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-5" value="&lt;div&gt;1）时间是当天9:00-15:40&lt;/div&gt;&lt;div&gt;2）消息类型A201&lt;/div&gt;&lt;div&gt;3）数据库中没有该时间数据&lt;/div&gt;&lt;div&gt;4）是目标类型&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="265" width="276" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-7" target="DGgxrFVdcXdNVyg7oCN9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-7" value="&lt;div&gt;1）落数据库ori&lt;/div&gt;&lt;div&gt;2）计算秒级最大、平均值并落库sec&lt;/div&gt;&lt;div&gt;3）告警处理&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="435" width="223" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-9" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-11" target="DGgxrFVdcXdNVyg7oCN9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-11" value="每隔一分钟开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="105" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-12" target="DGgxrFVdcXdNVyg7oCN9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-12" value="查询原始数据并按照rec_name分类" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-14" target="DGgxrFVdcXdNVyg7oCN9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-14" value="计算该类型和所有主机平均值和最大值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DGgxrFVdcXdNVyg7oCN9-16" target="DGgxrFVdcXdNVyg7oCN9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-16" value="保存数据库min" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DGgxrFVdcXdNVyg7oCN9-18" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
